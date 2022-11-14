@@ -28,7 +28,13 @@ public class CheckingAccount {
         return this.balance;
     }
 
-    public double withdrawal() {
+    public double withdrawal(double amount) {
+        this.balance = this.balance - amount;
         return this.balance;
+    }
+
+    public void show() {
+        System.out.println("Account holder: " + this.accountHolder);
+        System.out.println("Balance: " + this.balance);
     }
 }
