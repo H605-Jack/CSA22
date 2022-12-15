@@ -21,7 +21,11 @@ public class Person {
     }
 
     public int birthday() {
-        return ++this.age;
+        return +this.age;
+    }
+
+    public String gender() {
+        return this.gender;
     }
 
     public void introduce() {
