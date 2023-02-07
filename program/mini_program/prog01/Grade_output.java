@@ -33,6 +33,8 @@ public class Grade_output {
             System.out.println("D-");
         } else if (grade >= 0 && grade <= 59) {
             System.out.println("F");
+        } else {
+            System.out.println("Invalid Input");
         }
 
     }
