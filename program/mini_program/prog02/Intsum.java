@@ -14,7 +14,7 @@ public class Intsum {
             } else {
                 sum += entry;
             }
-        }
+        } 
         System.out.println("The sum of the numbers is "+sum);
     }
 }
