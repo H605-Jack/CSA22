@@ -1,4 +1,4 @@
-package mini_program.prog02;
+package March_miniprog.Intsum;
 
 import java.util.Scanner;
 
