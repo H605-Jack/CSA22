@@ -10,6 +10,7 @@ public class PrimeNum {
             int range = 2; // inital divisor 
             // do-while
             // check if testing number including 2
+            /* */
             do {
                 if (numtest % range == 0 && numtest != 2) {
                     isPrime = false;
@@ -19,7 +20,8 @@ public class PrimeNum {
                     isPrime = true;
                 }
                 range++;
-            } while (range < numtest);
+            } while (range <= Math.sqrt(numtest));
+            
             
             // check for prime 
             if (isPrime == true) {

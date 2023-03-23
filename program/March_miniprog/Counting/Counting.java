@@ -19,7 +19,7 @@ public class Counting {
             } else if (entry > 0) {
                 posCount++;
                 sum += entry;
-            }
+            } 
         } while (entry != 0);
 
         int totalCount = negCount + posCount;
